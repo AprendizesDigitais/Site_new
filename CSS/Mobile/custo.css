@@ -10,6 +10,7 @@
 }
 
 .custo h2{
+    width: 95%;
     font-size: 150%;
     font-weight: 800;
     text-align: center;
@@ -25,27 +26,25 @@
     margin-bottom: 5%;
 }
 
-.custo a{
+.custo img{
+    width: 50%;
+    height: auto;
     text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.custo img{
- width: 50%;
- height: auto;
-}
-
-.custo h3{
+.custo a{
     width: 70vw;
-    height: 12vw;
-    background-color: #e04b25;
+    height: 10vw;
+    border:2px solid #e04b25;
     border-radius: 10vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #e04b25;
     margin-top: 5%;
+    font-size: 100%;
 }

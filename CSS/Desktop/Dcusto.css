@@ -8,7 +8,12 @@
     margin-bottom: 3%;
 }
 
-.custo h3{
+.custo img{
+    width: 25%;
+}
+
+.custo a{
     width: 40vw;
-    height: 7vw;
+    height: 5vw;
+    font-size: 150%;
 }
