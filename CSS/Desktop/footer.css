@@ -1,0 +1,55 @@
+@media (min-width: 770px){
+.fot{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40436E;
+}
+
+.fot ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 0 1% 0;
+}
+
+.fot .logo2{
+    width: 50%;
+    height: auto;
+}
+
+.fot a{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+}
+
+.fot ul a div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 4vw;
+    height: auto;
+}
+
+.fot h2{
+    font-size: 1.5vw;
+}
+
+}
