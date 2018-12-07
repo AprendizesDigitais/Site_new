@@ -1,0 +1,29 @@
+.fot{
+    flex-direction: row;
+    padding: 2% 0;
+}
+
+#logoB{
+    width: 10%;
+    padding-left: 1%;
+}
+
+.fot div{
+    padding: 0;
+}
+
+.contato{
+    width: 80%;
+    padding: 0 !important;
+}
+
+.fot h2{
+    margin: 1% 0;
+}
+
+
+.fot img{
+    width: 40%;
+    height: auto;
+    margin: 0;
+}

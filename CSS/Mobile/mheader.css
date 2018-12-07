@@ -46,6 +46,9 @@
     height: auto;
 }
 
+.head nav{
+    display: none;
+}
 
 .head div input{
     width: 10%;
