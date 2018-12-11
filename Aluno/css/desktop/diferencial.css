@@ -1,0 +1,48 @@
+.diferencial{
+    width: 100%;
+    height: auto;
+    padding: 2% 0;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.metade{
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;;
+}
+
+.listaIcon .artigo{
+    width: 50%;
+}
+
+.listaIcon{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.metade ul{ 
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-image: url('../../img/diferencial/check.png');
+    align-items: center;
+    list-style-position: inside;
+}
+
+.metade li{
+    width: 45%;
+    margin: 0;
+}
+
+
+

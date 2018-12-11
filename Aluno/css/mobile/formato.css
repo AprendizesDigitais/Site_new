@@ -1,0 +1,36 @@
+.formato{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.formato article{
+    width: 50%;
+    height: auto;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#duracao{
+    width: 50%;
+    border-right: 2px solid lightgray; 
+}
+
+.formato h2{
+    font-size: 130%;
+    color: #E04B25;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.formato p{
+    width: 100%;
+    color: #253238;
+    font-size: 100%;
+    line-height: 1.53;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin: 3% 0;
+}

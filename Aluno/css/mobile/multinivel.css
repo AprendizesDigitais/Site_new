@@ -1,0 +1,34 @@
+.multinivel{
+    width: 100%;
+    height: auto;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #49AAEE;
+    /* background-color: #2869A1; */
+}
+
+.multinivel img{
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.multinivel section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multinivel section h2{
+    width: 30%;
+}
+
+#meio{
+    width: 40%;
+    border-left: 2px solid #A4B0C0;
+    border-right: 2px solid #A4B0C0;
+    /* padding: 0 4%; */
+}

@@ -1,0 +1,48 @@
+.container h2{
+    width: 90%;
+    font-size: 250%;
+    font-weight: 1000;
+    margin: 0 0;
+}
+
+.container section{
+    width: 95%;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.artigo{
+    width: 30%;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.artigo4x4{
+    width: 50%;
+    margin: 5% 0;
+    text-align: center;
+} 
+
+.artigo img{
+    max-width: 128px;
+}
+
+.artigo4x4 img{
+    max-width: 128px;
+}
+
+.artigo h2{
+    width: 100%;
+    margin-top: 3%;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.artigo4x4 h2{
+    width: 100%;
+    margin-top: 3%;
+    font-size: 150%;
+    font-weight: 500;
+}

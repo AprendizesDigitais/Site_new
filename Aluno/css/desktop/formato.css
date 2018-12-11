@@ -1,0 +1,20 @@
+.formato article{
+    width: 50%;
+    height: auto;
+    margin: 1% 0;
+    padding: 0;
+}
+
+.formato h2{
+    font-size: 200%;
+}
+
+.formato p{
+    width: 100%;
+    color: #253238;
+    font-size: 150%;
+    line-height: 1.53;
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin: 1% 0;
+}

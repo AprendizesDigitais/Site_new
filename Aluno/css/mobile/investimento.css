@@ -1,0 +1,50 @@
+.investimento{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.InvArt1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.InvArt1 img{
+    width: 40%;
+    height: auto;
+}
+
+.InvArt2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InvArt2 p{
+    margin-bottom: 10%;
+    width: 100%;
+    color: #253238;
+    font-size: 100%;
+    line-height: 1.53;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+.InvArt2 a{
+    width: 90%;
+    padding: 5%;
+    background-color:#2869A1;
+    border-radius: 5vw;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    text-transform: uppercase;
+    line-height: 1.53;
+    letter-spacing: 1.4px;
+    text-align: center;
+}

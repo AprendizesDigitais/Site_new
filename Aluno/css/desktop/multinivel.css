@@ -1,0 +1,20 @@
+.multinivel{
+    padding: 2% 0;
+}
+
+.multinivel img{
+    width: 20%;
+    max-width: 20%;
+    margin-bottom: 2%;
+}
+
+.multinivel section h2{
+    width: 20%;
+}
+
+#meio{
+    width: 20%;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    /* padding: 0 4%; */
+}

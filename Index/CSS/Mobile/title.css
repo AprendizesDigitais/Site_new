@@ -1,0 +1,50 @@
+.title{
+    height: 70vh;
+    width: 100%;
+    background: url("../../img/fundo/3.jpg");
+    background-size: 100%;
+    /* Fundo de 1 a 7 */
+}
+
+#coverColor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(40, 104, 161, 0.671);
+}
+
+.title h2{
+    width: 90%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+    color:#eeece3;
+} 
+
+.title p{
+    width: 90%;
+    text-align: center;
+    font-size: 150%;
+    font-weight:600;
+    color:#eeece3;
+    margin: 5% 0;
+}
+
+.title a{
+    width: 50%;
+    height: 9%;
+    background-color: #e04b25;
+    background-size:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 10vw;
+    color:#eeece3;
+    text-transform: uppercase;
+}
