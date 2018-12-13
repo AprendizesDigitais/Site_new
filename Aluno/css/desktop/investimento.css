@@ -3,34 +3,23 @@
 }
 
 .investimento h2{
-    margin-top: 0;
+    font-size: 3vw;
+    margin: 0 0 3% 0;
 }
 
-.InvArt1{
-    justify-content: space-around;
-}
-
-.InvArt1 img{
-    width: 20%;
-    max-width: 250px;
-}
-
-.InvArt2{
-    width: 50%;
-    align-items: baseline;
-}
-
-.InvArt2 p{
-    font-size: 150%;
-    text-align: left;
+.investimento img{
+    width: 40%;
+    max-width: 300px;
     margin-bottom: 3%;
 }
 
-.InvArt2 a{
+.investimento p{
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.investimento a{
     width: 30%;
     padding: 2%;
-    font-size: 120%;
-    line-height: 1.53;
-    letter-spacing: 1.4px;
-    text-align: center;
+    font-size: 2vw;
 }

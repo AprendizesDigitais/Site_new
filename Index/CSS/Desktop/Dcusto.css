@@ -2,15 +2,12 @@
     padding: 3% 0;
 }
 
-.custo h2{
-    width: 90%;
+#titulo{
     font-size: 3vw;
-    text-align: center;
-    color: #423c41;
     margin-bottom: 3%;
 }
 
-.custo p{
+.custo h2{
     font-size: 2vw;
     margin-bottom: 4%;
 }

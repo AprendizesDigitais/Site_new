@@ -1,0 +1,17 @@
+.programatico{
+    padding: 3% 0;
+}
+
+.programatico h2{
+    font-size: 3vw;
+    margin: 0 0 3% 0;
+}
+
+.programatico ul{
+    width: 70%;
+}
+
+.programatico li{
+    margin-bottom: 3%;
+    font-size: 2vw;
+}

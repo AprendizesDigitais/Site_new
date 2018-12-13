@@ -9,7 +9,7 @@
     background-color: #f8f8f8;
 }
 
-.custo h2{
+#titulo{
     width: 90%;
     font-size: 6vw;
     text-align: center;
@@ -17,12 +17,13 @@
     margin-bottom: 10%;
 }
 
-.custo p{
-    width: 90%;
+.custo h2{
+    width: 80%;
     font-size: 5vw;
     text-align: center;
     color: #423c41;
     margin-bottom: 10%;
+    
 }
 
 .custo img{
