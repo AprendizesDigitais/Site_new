@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: 'brandon_bold', sans-serif;
+    line-height: 1.19;
+    letter-spacing: 1.4px;
 }
 
 .head h2{

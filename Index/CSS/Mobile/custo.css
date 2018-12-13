@@ -10,34 +10,45 @@
 }
 
 .custo h2{
-    width: 95%;
-    font-size: 150%;
-    font-weight: 800;
+    width: 90%;
+    font-size: 6vw;
     text-align: center;
     color: #423c41;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .custo p{
-    font-size: 100%;
-    font-weight: 600;
+    width: 90%;
+    font-size: 5vw;
     text-align: center;
     color: #423c41;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .custo img{
     width: 50%;
+    max-width: 200px;
     height: auto;
-    text-decoration: none;
+    margin-bottom: 5%;
+    /* text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+.custo article{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .custo a{
-    width: 70vw;
-    height: 10vw;
+    width: 75%;
+    height: auto;
+    padding: 3% 0;
+    margin-top: 5%;
     border:2px solid #e04b25;
     border-radius: 10vw;
     display:flex;
@@ -45,6 +56,5 @@
     justify-content: center;
     align-items: center;
     color: #e04b25;
-    margin-top: 5%;
-    font-size: 100%;
+    font-size: 5vw;
 }

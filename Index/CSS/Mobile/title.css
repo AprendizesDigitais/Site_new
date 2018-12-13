@@ -1,8 +1,8 @@
 .title{
-    height: 70vh;
     width: 100%;
+    height: auto;
     background: url("../../img/fundo/3.jpg");
-    background-size: 100%;
+    background-size: auto 100%;
     /* Fundo de 1 a 7 */
 }
 
@@ -14,37 +14,40 @@
     justify-content: center;
     align-items: center;
     background: rgba(40, 104, 161, 0.671);
+    padding: 5% 0;
 }
 
-.title h2{
+#coverColor h2{
     width: 90%;
     text-align: center;
-    font-size: 200%;
-    font-weight: 700;
-    color:#eeece3;
+    margin: 5% 0;
+    color:white;
+    font-size: 7vw;
+    opacity: 0.95;
 } 
 
-.title p{
+#coverColor p{
     width: 90%;
     text-align: center;
-    font-size: 150%;
+    font-size: 6vw;
     font-weight:600;
-    color:#eeece3;
-    margin: 5% 0;
+    color:white;
+    margin-bottom: 5%;
+    opacity: 0.95;
 }
 
-.title a{
-    width: 50%;
-    height: 9%;
-    background-color: #e04b25;
-    background-size:100%;
+#coverColor a{
+    width: 80%;
+    padding: 3% 0;
+    margin-bottom: 5%;
+    text-decoration: none;
+    background-color: #E04B25;
+    border-radius: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    font-size: 150%;
-    font-weight: 600;
-    border-radius: 10vw;
-    color:#eeece3;
+    
+    color: white;
+    font-size: 4.5vw;
     text-transform: uppercase;
 }

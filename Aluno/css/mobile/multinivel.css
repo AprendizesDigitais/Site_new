@@ -5,13 +5,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background-color: #49AAEE;
-    /* background-color: #2869A1; */
+}
+
+.multinivel h2{
+    width: 90%;
+    font-size: 6vw;
+    text-align: center;
+    color: #423c41;
+    margin: 5% 0;
 }
 
 .multinivel img{
     width: 50%;
+    max-width: 500px;
     margin-bottom: 5%;
 }
 
@@ -22,8 +29,12 @@
     align-items: center;
 }
 
-.multinivel section h2{
+.multinivel section h3{
     width: 30%;
+    color: #423c41;
+    font-size: 5vw;
+    text-align: center;
+    margin: 3% 0;
 }
 
 #meio{

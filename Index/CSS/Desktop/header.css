@@ -49,3 +49,7 @@
     font-weight: 600;
     color: #423c41;
 }
+
+img{
+    max-width: 128px;
+}
