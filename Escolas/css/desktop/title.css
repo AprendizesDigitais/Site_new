@@ -1,0 +1,24 @@
+.title{
+    background-size: 100% auto;
+}
+
+#coverColor{
+    padding: 3% 0;
+}
+
+#coverColor h2{
+    margin: 3% 0;
+    font-size: 4vw;
+} 
+
+#coverColor p{
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+
+#coverColor a{
+    width: 35%;
+    padding: 1% 0;
+    margin-bottom: 3%;
+    font-size: 2vw;
+}

@@ -1,0 +1,51 @@
+.title{
+    width: 100%;
+    height: auto;
+    background: url("../../../Index/img/fundo.jpg");
+    background-size: auto 100%;
+}
+
+#coverColor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  rgba(66, 60, 65, 0.466);
+    padding: 5% 0;
+}
+
+#coverColor h2{
+    width: 90%;
+    text-align: center;
+    margin: 5% 0;
+    color:white;
+    font-size: 7vw;
+    opacity: 0.95;
+} 
+
+#coverColor p{
+    width: 90%;
+    text-align: center;
+    font-size: 6vw;
+    font-weight:600;
+    color:white;
+    margin-bottom: 5%;
+    opacity: 0.95;
+}
+
+#coverColor a{
+    width: 80%;
+    padding: 3% 0;
+    margin-bottom: 5%;
+    text-decoration: none;
+    background-color: #E04B25;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+}

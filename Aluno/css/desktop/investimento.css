@@ -10,7 +10,7 @@
 .investimento img{
     width: 40%;
     max-width: 300px;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
 }
 
 .investimento p{
@@ -20,6 +20,6 @@
 
 .investimento a{
     width: 30%;
-    padding: 2%;
+    padding: 1%;
     font-size: 2vw;
 }

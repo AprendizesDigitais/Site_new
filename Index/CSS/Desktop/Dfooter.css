@@ -12,6 +12,11 @@
     padding: 0;
 }
 
+#icons{
+    width: 20%;
+    flex-direction: column !important;
+}
+
 .contato{
     width: 80%;
     padding: 0 !important;
@@ -24,6 +29,7 @@
 
 .fot img{
     width: 40%;
+    max-width: 60px;
     height: auto;
     margin: 0;
 }

@@ -1,0 +1,31 @@
+.container{
+    padding: 3% 0;
+}
+
+.container section{
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h2{
+    font-size: 3vw;
+    margin: 3% 0;
+}
+
+.container h3{
+    font-size: 2vw;
+    margin: 3% 0 0 0;
+}
+
+#paragrafo{
+    width: 70%;
+    margin: 0 0 2% 0 ;
+}
+
+.artigo{
+    width: 50%;
+    margin: 0;
+}
+
