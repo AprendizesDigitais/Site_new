@@ -1,44 +1,51 @@
 .fot{
     width: 100%;
     height: auto;
-    background-color: rgb(91, 74, 122);
+    background-color: rgb(102, 93, 100);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5% 0;
 }
 
-#logoB{
-    width: 50%;
-    max-width: 150px;
+.fot .Logo{
+    width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fot div{
+.fot .Logo img{
+    width: 50%;
+    height: 50%;
+    max-width: 150px;
+}
+
+.fot .contato{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5% 0;
 }
 
-#icons{
-    width: 70%;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.fot h2{
-    width: 90%;
-    font-size: 100%;
-    font-weight: 800;
+.fot .contato h2{
+    width: 100%;
+    font-size: 4.5vw;
     text-align: center;
     color: white;
     margin: 5% 0;
 }
 
-.fot img{
+#icons{
     width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#icons img{
+    width: 25vw;
+    height: 25vw;
     max-width: 60px;
-    height: auto;
-    margin: 7% 0;
+    max-height: 60px;
 }

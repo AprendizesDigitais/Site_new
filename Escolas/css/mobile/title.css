@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background: url("../../../Index/img/fundo.jpg");
-    background-size: auto 100%;
+    background-size: 100% 100%;
 }
 
 #coverColor{
@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(66, 60, 65, 0.466);
+    background:  rgba(66, 60, 65, 0.445);
     padding: 5% 0;
 }
 
@@ -25,10 +25,10 @@
     opacity: 0.95;
 } 
 
-#coverColor p{
+#coverColor h3{
     width: 90%;
     text-align: center;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight:600;
     color:white;
     margin-bottom: 5%;
@@ -36,7 +36,7 @@
 }
 
 #coverColor a{
-    width: 80%;
+    width: 50%;
     padding: 3% 0;
     margin-bottom: 5%;
     text-decoration: none;
@@ -46,6 +46,6 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 4.5vw;
+    font-size: 3vw;
     text-transform: uppercase;
 }

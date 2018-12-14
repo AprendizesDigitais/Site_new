@@ -5,8 +5,9 @@
 .container section{
     width: 90%;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+    margin:  3% 0 0 0;
 }
 
 .container h2{
@@ -20,7 +21,7 @@
 }
 
 .artigo{
-    width: 25%;
-    margin: 0;
+    width: 30%;
+    margin: 0 0 5% 0;
 }
 

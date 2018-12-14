@@ -1,55 +1,32 @@
-.head{
-    height: 17vw;
-    max-height: 140px;
-    flex-direction: row;
+.topnav {
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.head div{
-    width: 20%;
+#logoEmenu{
+    width: 10%;
+    justify-content: center;
 }
 
-.logo1{
-    width: 100%;
-    height: 100%;
-}
-
-.logo1 img{
-    width: 100%;
-    height: auto;
-}
-
-.head input{
+#logoEmenu .icon{
     display: none;
 }
 
-.head nav{
+.topnav .active {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.topnav #myLinks {
     width: 90%;
-    height: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
-.head nav a{
-    width: 20%;
-    height: 100%;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#EscEOng{
-    width: 30%;
-}
-
-.head nav a h2{
+.topnav #myLinks a{
+    width: 25%;
+    padding: 3%;
     font-size: 2vw;
-    font-weight: 600;
-    color: #423c41;
-}
-
-img{
-    max-width: 128px;
 }

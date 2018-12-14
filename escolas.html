@@ -8,91 +8,101 @@
     <title>Aprendizes Digitais</title>
     <link rel="stylesheet" href="./Index/CSS/Mobile/mheader.css">
     <link rel="stylesheet" href="./Index/CSS/Mobile/mfooter.css">
-    <link rel="stylesheet" href="./Empresas/css/mobile/title.css">
-    <link rel="stylesheet" href="./Empresas/css/mobile/conteudo.css">
+    <link rel="stylesheet" href="./Escolas/css/mobile/title.css">
+    <link rel="stylesheet" href="./Escolas/css/mobile/conteudo.css">
 
     <link rel="stylesheet" href="./Index/CSS/Desktop/header.css" media="only screen and (min-width:456px)">
     <link rel="stylesheet" href="./Index/CSS/Desktop/Dfooter.css" media="only screen and (min-width:456px)">
-    <link rel="stylesheet" href="./Empresas/css/desktop/title.css" media="only screen and (min-width:456px)">
-    <link rel="stylesheet" href="./Empresas/css/desktop/container.css" media="only screen and (min-width:456px)">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./Escolas/css/desktop/title.css" media="only screen and (min-width:456px)">
+    <link rel="stylesheet" href="./Escolas/css/desktop/container.css" media="only screen and (min-width:456px)">
 </head>
 
+<body>
+    <header class="topnav">
+        <section id="logoEmenu">
+            <a class="active" href="./index.html"></a>
 
-<header class="head">
-    <h1 id="nome">Aprendizes Digitais</h1>
-    <div>
-        <a class="logo1" href="./index.html">
-            <img src="./Index/img/Logo sem fundo.png" alt="Logo Aprendizes Digitais">
-        </a>
-        <input type="button">
-    </div>
-    <nav>
-        <a class="bnt" href="./alunos.html">
-            <h2>Curso</h2>
-        </a>
-        <a class="bnt" href="">
-            <h2>Para Empresas</h2>
-        </a>
-        <a id="EscEOng" class="bnt" href="">
-            <h2>Para Escolas e ONGs</h2>
-        </a>
-        <a class="bnt" id="bntContato" href="#contato">
-            <h2>Contato</h2>
-        </a>
-    </nav>
-</header>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        </section>
+        <nav id="myLinks">
+            <a class="bnt" href="./alunos.html">Curso</a>
+            <a class="bnt" href="./empresas.html">Para Empresas</a>
+            <a id="EscEOng" class="bnt" href="./escolas.html">Para Escolas e ONGs</a>
+            <a class="bnt" id="bntContato" href="#contato">Contato</a>
+        </nav>
 
-<!-- Titulo -->
-<section class="title">
-    <div id="coverColor">
-        <!-- <h2>Aumente suas chances de conseguir um bom emprego</h2> -->
-        <!-- com conhecimento em programação? -->
-        <h2>Dificuldade em contratar profissionais?</h2>
-        <p>A Aprendizes Digitais pode ajudar sua empresa</p>
-        <a href="">Eu quero!</a>
-    </div>
-</section>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "flex") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "flex";
+                }
+            }
+        </script>
+    </header>
 
-<!-- Conteudo -->
-<section class="container">
-    <h2 class="titulo">Capacitamos sua equipe</h2>
-    <section>
-        <a class="artigo">
-            <img src="/Empresas/img/InCompany.png">
-            <h3>Cursos in-company</h3>
-        </a>
-
-        <a class="artigo">
-            <img src="./Empresas/img/onDemand.png">
-            <h3>Conteúdo sob demanda</h3>
-        </a>
+    <!-- Titulo -->
+    <section class="title">
+        <div id="coverColor">
+            <h2>Preparamos o jovem de baixa renda para o futuro digital</h2>
+            <h3>Impactando positivamente no seu crescimento profissional e pessoal</h3>
+            <a href="">Eu quero!</a>
+        </div>
     </section>
-</section>
 
-<section class="container">
-    <h2 class="titulo">Recrutamento </h2>
-    <img src="./Empresas/img/recrutamento.png" alt="">
-    <h3>
-        Encontre os novos talentos digitais para sua empresa,
-        entrevistando os alunos de nossos cursos regulares
-    </h3>
-</section>
+    <!-- Conteudo -->
+    <section class="container">
+        <h2>
+            Os nossos cursos visam colaborar com a inclusão digital,
+            oferecendo conhecimento digital de qualidade com preço acessível
+        </h2>
+        <section>
+            <a class="artigo">
+                <img src="./Escolas/img/programação.png">
+                <h3>Ensino das principais linguagens de programação</h3>
+            </a>
 
-<!-- footer -->
-<footer id="contato" class="fot">
-    <img id="logoB" src="./Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
-    <div class="contato">
-        <h2>11 5599-9205</h2>
-        <h2>aprendizesdigitais@gmail.com</h2>
-        <h2>Rua Nove de julho, 72 - Santo Amaro - SP</h2>
-    </div>
-    <div id="icons">
-        <img src="./Index/img/footer/facebook.png" alt="Facebook">
-        <img src="./Index/img/footer/instagram.png" alt="Instagram">
-        <img src="./Index/img/footer/email.png" alt="Email">
-    </div>
-</footer>
+            <a class="artigo">
+                <img src="./Escolas/img/trabalho.png">
+                <h3>
+                    Exercício de habilidades e competências valorizadas no mercado de trabalho
+                </h3>
+            </a>
+
+            <a class="artigo">
+                <img src="./Escolas/img/desenvolvimento.png">
+                <h3>Desenvolvimento de apps e construção de sites</h3>
+            </a>
+
+            <a class="artigo">
+                <img src="./Escolas/img/digital.png">
+                <h3>Uso de ferramentas digitais</h3>
+            </a>
+
+            <a class="artigo">
+                <img src="./Escolas/img/laptop.png">
+                <h3>Disponibilizamos computadores para uso durante a aula</h3>
+            </a>
+        </section>
+    </section>
+
+    <footer id="contato" class="fot">
+        <div class="Logo">
+            <img id="logoB" src="./Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
+        </div>
+        <div class="contato">
+            <h2>11 5599-9205</h2>
+            <h2>aprendizesdigitais@gmail.com</h2>
+            <h2>Rua Nove de Julho, 72 <br> Santo Amaro - SP</h2>
+        </div>
+        <div id="icons">
+            <img src="./Index/img/footer/facebook.png" alt="Facebook">
+            <img src="./Index/img/footer/instagram.png" alt="Instagram">
+            <img src="./Index/img/footer/email.png" alt="Email">
+        </div>
+    </footer>
 </body>
 
 </html>

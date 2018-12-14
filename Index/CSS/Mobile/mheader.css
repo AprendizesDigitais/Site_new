@@ -4,60 +4,61 @@
     font-family: 'brandon_bold', sans-serif;
     line-height: 1.19;
     letter-spacing: 1.4px;
+    /* outline: 1px solid black; */
 }
 
-.head h2{
-    font-size: 5.5vw;
-}
-
-.head p{
-    font-size:4.5vw;
-}
-
-.head{
+/* Style the navigation menu */
+.topnav {
     width: 100%;
-    height: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#nome{
-    display: none;
-}
-
-.head div{
-    width: 95%;
-    height: 100%;
+    height: auto;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.logo1{
-    width: 35%;
-    height: auto;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-
-.logo1 img{
+#logoEmenu{
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.head nav{
-    display: none;
-}
-
-.head div input{
-    width: 10%;
-    height: 30%;
-    background-image: url("../../img/setaParaBaixo.png");
-    background-size: 100% 100%;
+.topnav .active {
+    width: 25%;
+    height: 12vh;
+    padding: 0;
+    margin-left: 2%;
+    background-image: url('../../img/Logo\ sem\ fundo.png');
+    background-size: 100% auto;
+    background-position: center;
     background-repeat: no-repeat;
-    border: none;
-    outline: none;
+}
+
+.topnav a.icon {
+    width: 25%;
+    height: 12vh;
+    background-image: url('../../img/menu.png');
+    background-size:  40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topnav #myLinks a{
+    width: 100%;
+    height: auto;
+    padding: 5% 0;
+    text-align: center;
+    text-decoration: none;
+    color: #423C41;
+    font-size: 5vw;
+    text-transform: uppercase;
 }

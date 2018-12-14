@@ -25,159 +25,162 @@
     <link rel="stylesheet" href="./Aluno/css/desktop/investimento.css" media="only screen and (min-width:456px)">
 </head>
 
+<body>
+    <header class="topnav">
+        <section id="logoEmenu">
+            <a class="active" href="./index.html"></a>
 
-<header class="head">
-    <h1 id="nome">Aprendizes Digitais</h1>
-    <div>
-        <a class="logo1" href="./index.html">
-            <img src="./Index/img/Logo sem fundo.png" alt="Logo Aprendizes Digitais">
-        </a>
-        <input type="button">
-    </div>
-    <nav>
-        <a class="bnt" href="./alunos.html">
-            <h2>Curso</h2>
-        </a>
-        <a class="bnt" href="./empresas.html">
-            <h2>Para Empresas</h2>
-        </a>
-        <a id="EscEOng" class="bnt" href="./escolas.html">
-            <h2>Para Escolas e ONGs</h2>
-        </a>
-        <a class="bnt" id="bntContato" href="#contato">
-            <h2>Contato</h2>
-        </a>
-    </nav>
-</header>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        </section>
+        <nav id="myLinks">
+            <a class="bnt" href="./alunos.html">Curso</a>
+            <a class="bnt" href="./empresas.html">Para Empresas</a>
+            <a id="EscEOng" class="bnt" href="./escolas.html">Para Escolas e ONGs</a>
+            <a class="bnt" id="bntContato" href="#contato">Contato</a>
+        </nav>
 
-<!-- Titulo -->
-<section class="title">
-    <div id="coverColor">
-        <!-- <h2>Aumente suas chances de conseguir um bom emprego</h2> -->
-        <h2>Aprenda programação e invista em seu crescimento pessoal e profissional</h2>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVEvOGfMyCpki0nZ6EaggPRrSMjyTxEkms9EQ3NHvS0NLGhw/viewform?usp=sf_link">comece agora!</a>
-    </div>
-</section>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "flex") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "flex";
+                }
+            }
+        </script>
+    </header>
 
-<!-- Conteudo -->
-<section class="container">
-    <h2 class="titulo">Aprenda a desenvolver sites e criar apps </h2>
-    <section>
-        <article class="artigo">
-            <img src="./Aluno/img/conteudo/html.png" alt="Icone HTML">
-            <h3>HTML</h3>
+    <!-- Titulo -->
+    <section class="title">
+        <div id="coverColor">
+            <!-- <h2>Aumente suas chances de conseguir um bom emprego</h2> -->
+            <h2>Aprenda programação e invista em seu crescimento pessoal e profissional</h2>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVEvOGfMyCpki0nZ6EaggPRrSMjyTxEkms9EQ3NHvS0NLGhw/viewform?usp=sf_link">comece
+                agora!</a>
+        </div>
+    </section>
+
+    <!-- Conteudo -->
+    <section class="container">
+        <h2 class="titulo">Aprenda a desenvolver sites e criar apps </h2>
+        <section>
+            <article class="artigo">
+                <img src="./Aluno/img/conteudo/html.png" alt="Icone HTML">
+                <h3>HTML</h3>
+            </article>
+
+            <article class="artigo">
+                <img src="./Aluno/img/conteudo/css.png" alt="Icone CSS">
+                <h3>CSS</h3>
+            </article>
+
+            <article class="artigo">
+                <img src="./Aluno/img/conteudo/js.png" alt="Icone JavaScript">
+                <h3>JavaScript</h3>
+            </article>
+
+            <article class="artigo">
+                <img src="./Aluno/img/conteudo/react.png" alt="Icone React">
+                <h3>React</h3>
+            </article>
+        </section>
+    </section>
+
+
+    <!-- Conteudo programatico -->
+    <section class="programatico">
+        <h2 class="titulo">Conteúdo programático</h2>
+        </h2>
+        <ul>
+            <li>Como funciona a Internet</li>
+            <li>Como funciona uma página da web</li>
+            <li>Git</li>
+            <li>Flexbox</li>
+            <li>Cores</li>
+            <li>JavaScript</li>
+            <li>Imagens e tags</li>
+            <li>Arrays</li>
+            <li>Eventos</li>
+            <li>Loops</li>
+            <li>Funções</li>
+            <li>Acesso ao DOM</li>
+            <li>Links e Imagens</li>
+            <li>Cores</li>
+            <li>Variáveis</li>
+            <li>PWA</li>
+        </ul>
+    </section>
+
+
+    <!-- Diferencial -->
+    <section class="container">
+        <h2 class="titulo">O que a Aprendizes Digitais tem de diferente?</h2>
+        <section>
+            <article class="a1x4">
+                <img src="./Aluno/img/diferencial/tarefas.png">
+                <h3>Aulas com Projeto e metas</h3>
+            </article>
+            <article class="a1x4">
+                <img src="./Aluno/img/diferencial/laptop.png">
+                <h3>1 aluno por computador</h3>
+            </article>
+            <article class="a1x4">
+                <img src="./Aluno/img/diferencial/ingles.png">
+                <h3>Estudo de Inglês técnico</h3>
+            </article>
+            <article class="a1x4">
+                <img src="./Aluno/img/diferencial/ferramentas.png">
+                <h3>Uso de Ferramentas Digitais</h3>
+            </article>
+        </section>
+    </section>
+
+    <!-- Formato -->
+    <section class="formato">
+        <article id="duracao">
+            <h2>Duração da Aula</h2>
+            <p>180 minutos</p>
         </article>
-
-        <article class="artigo">
-            <img src="./Aluno/img/conteudo/css.png" alt="Icone CSS">
-            <h3>CSS</h3>
-        </article>
-
-        <article class="artigo">
-            <img src="./Aluno/img/conteudo/js.png" alt="Icone JavaScript">
-            <h3>JavaScript</h3>
-        </article>
-
-        <article class="artigo">
-            <img src="./Aluno/img/conteudo/react.png" alt="Icone React">
-            <h3>React</h3>
+        <article>
+            <h2>Frequência</h2>
+            <p>1 vez por semana</p>
         </article>
     </section>
-</section>
 
-
-<!-- Conteudo programatico -->
-<section class="programatico">
-    <h2 class="titulo">Conteúdo programático</h2>
-    </h2>
-    <ul>
-        <li>Como funciona a Internet</li>
-        <li>Como funciona uma página da web</li>
-        <li>Git</li>
-        <li>Flexbox</li>
-        <li>Cores</li>
-        <li>JavaScript</li>
-        <li>Imagens e tags</li>
-        <li>Arrays</li>
-        <li>Eventos</li>
-        <li>Loops</li>
-        <li>Funções</li>
-        <li>Acesso ao DOM</li>
-        <li>Links e Imagens</li>
-        <li>Cores</li>
-        <li>Variáveis</li>
-        <li>PWA</li>
-    </ul>
-</section>
-
-
-<!-- Diferencial -->
-<section class="container">
-    <h2 class="titulo">O que a Aprendizes Digitais tem de diferente?</h2>
-    <section>
-        <article class="a1x4">
-            <img src="./Aluno/img/diferencial/tarefas.png">
-            <h3>Aulas com Projeto e metas</h3>
-        </article>
-        <article class="a1x4">
-            <img src="./Aluno/img/diferencial/laptop.png">
-            <h3>1 aluno por computador</h3>
-        </article>
-        <article class="a1x4">
-            <img src="./Aluno/img/diferencial/ingles.png">
-            <h3>Estudo de Inglês técnico</h3>
-        </article>
-        <article class="a1x4">
-            <img src="./Aluno/img/diferencial/ferramentas.png">
-            <h3>Uso de Ferramentas Digitais</h3>
-        </article>
+    <!-- Multi nivel -->
+    <section class="multinivel">
+        <h2 class="titulo">Aula formatada para todos os níveis</h2>
+        <img src="./Aluno/img/multi.png" alt="Para todos">
+        <section>
+            <h3>Iniciante</h3>
+            <h3 id="meio">Intermediário</h3>
+            <h3>Avançado</h3>
+        </section>
     </section>
-</section>
 
-<!-- Formato -->
-<section class="formato">
-    <article id="duracao">
-        <h2>Duração da Aula</h2>
-        <p>180 minutos</p>
-    </article>
-    <article>
-        <h2>Frequência</h2>
-        <p>1 vez por semana</p>
-    </article>
-</section>
-
-<!-- Multi nivel -->
-<section class="multinivel">
-    <h2 class="titulo">Aula formatada para todos os níveis</h2>
-    <img src="./Aluno/img/multi.png" alt="Para todos">
-    <section>
-        <h3>Iniciante</h3>
-        <h3 id="meio">Intermediário</h3>
-        <h3>Avançado</h3>
+    <!-- Invertimento -->
+    <section class="investimento">
+        <h2 class="titulo">Invista no seu crescimento pessoal e profissional.</h2>
+        <img src="./Index/img/preço.png" alt="">
+        <a href="">Eu quero!</a>
     </section>
-</section>
 
-<!-- Invertimento -->
-<section class="investimento">
-    <h2 class="titulo">Invista no seu crescimento pessoal e profissional.</h2>
-    <img src="./Index/img/preço.png" alt="">
-    <a href="">Eu quero!</a>
-</section>
-
-<!-- footer -->
-<footer id="contato" class="fot">
-    <img id="logoB" src="./Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
-    <div class="contato">
-        <h2>11 5599-9205</h2>
-        <h2>aprendizesdigitais@gmail.com</h2>
-        <h2>Rua Nove de julho, 72 - Santo Amaro - SP</h2>
-    </div>
-    <div id="icons">
-        <img src="./Index/img/footer/facebook.png" alt="Facebook">
-        <img src="./Index/img/footer/instagram.png" alt="Instagram">
-        <img src="./Index/img/footer/email.png" alt="Email">
-    </div>
-</footer>
+    <footer id="contato" class="fot">
+        <div class="Logo">
+            <img id="logoB" src="./Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
+        </div>
+        <div class="contato">
+            <h2>11 5599-9205</h2>
+            <h2>aprendizesdigitais@gmail.com</h2>
+            <h2>Rua Nove de Julho, 72 <br> Santo Amaro - SP</h2>
+        </div>
+        <div id="icons">
+            <img src="./Index/img/footer/facebook.png" alt="Facebook">
+            <img src="./Index/img/footer/instagram.png" alt="Instagram">
+            <img src="./Index/img/footer/email.png" alt="Email">
+        </div>
+    </footer>
 </body>
 
 </html>

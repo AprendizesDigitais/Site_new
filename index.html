@@ -19,33 +19,37 @@
     <link rel="stylesheet" href="./Index/CSS/Desktop/Dcontainer.css" media="only screen and (min-width:456px)">
     <link rel="stylesheet" href="./Index/CSS/Desktop/DBdBrasil.css" media="only screen and (min-width:456px)">
     <link rel="stylesheet" href="./Index/CSS/Desktop/Dcusto.css" media="only screen and (min-width:456px)">
-    
+
+    <!-- Icon p nav -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
 <body>
-    <header class="head">
-        <h1 id="nome">Aprendizes Digitais</h1>
-        <div>
-            <a class="logo1" href="./index.html">
-                <img src="./Index/img/Logo sem fundo.png" alt="Logo Aprendizes Digitais">
-            </a>
-            <input type="button">
-        </div>
-        <nav>
-            <a class="bnt" href="./alunos.html">
-                <h2>Curso</h2>
-            </a>
-            <a class="bnt" href="./empresas.html">
-                <h2>Para Empresas</h2>
-            </a>
-            <a id="EscEOng" class="bnt" href="./escolas.html">
-                <h2>Para Escolas e ONGs</h2>
-            </a>
-            <a class="bnt" id="bntContato" href="#contato">
-                <h2>Contato</h2>
-            </a>
+    <header class="topnav">
+        <section id="logoEmenu">
+            <a class="active" href="./index.html"></a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        </section>
+        <nav id="myLinks">
+            <a class="bnt" href="./alunos.html">Curso</a>
+            <a class="bnt" href="./empresas.html">Para Empresas</a>
+            <a id="EscEOng" class="bnt" href="./escolas.html">Para Escolas e ONGs</a>
+            <a class="bnt" id="bntContato" href="#contato">Contato</a>
         </nav>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "flex") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "flex";
+                }
+            }
+        </script>
     </header>
 
     <section class="title">
@@ -54,7 +58,8 @@
             <p>Invista no seu crescimento
                 por um preço que cabe no seu bolso
             </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeshU6RNzJPdrHa-roAElkXvCxW9YkkKkczDp5xLE6Z0wGKw/viewform?usp=sf_link">Marque uma aula teste</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeshU6RNzJPdrHa-roAElkXvCxW9YkkKkczDp5xLE6Z0wGKw/viewform?usp=sf_link">Marque
+                uma aula teste</a>
         </div>
     </section>
 
@@ -67,7 +72,7 @@
             </article>
 
             <article class="artigo">
-                <img src ="./Index/img/icon/rubks.png" alt="">
+                <img src="./Index/img/icon/rubks.png" alt="">
                 <h2>Resolução de problemas </h2>
             </article>
 
@@ -96,12 +101,7 @@
     <section class="BDBrasil">
         <h2>O futuro é digital</h2>
         <div class="corte">
-            <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/Uo_UDt9i2BQ" 
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Uo_UDt9i2BQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </div>
@@ -144,7 +144,9 @@
     </section>
 
     <footer id="contato" class="fot">
-        <img id="logoB" src="./Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
+        <div class="Logo">
+            <img id="logoB" src="./Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
+        </div>
         <div class="contato">
             <h2>11 5599-9205</h2>
             <h2>aprendizesdigitais@gmail.com</h2>
