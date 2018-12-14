@@ -28,5 +28,6 @@
 .topnav #myLinks a{
     width: 25%;
     padding: 3%;
-    font-size: 2vw;
+    font-size: 1vw;
+    font-weight: 600;
 }
