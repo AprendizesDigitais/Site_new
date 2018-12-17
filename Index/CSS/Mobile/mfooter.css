@@ -16,12 +16,16 @@
     align-items: center;
 }
 
-.fot .Logo a {width: 100%;}
+.fot .Logo a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .fot .Logo img{
     width: 50%;
     height: 50%;
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .fot .contato{

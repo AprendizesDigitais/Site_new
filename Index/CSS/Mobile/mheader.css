@@ -72,3 +72,16 @@
 .topnav #myLinks a:focus-visible{
     font-size: 5vw;
 }
+
+#WhatsApp{
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    width: 17vw;
+    height: 17vw;
+    max-width: 80px;
+    max-height: 80px;
+    background-image: url('../../img/whatsapp.png');
+    background-size: cover;
+    background-position: center;
+}
