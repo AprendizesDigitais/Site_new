@@ -40,3 +40,19 @@
 img{
     max-width: 128px;
 }
+
+.container .cta{
+    width: 75%;
+    height: auto;
+    padding: 3% 0;
+    margin-top: 5%;
+    border:2px solid #e04b25;
+    border-radius: 10vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e04b25;
+    font-size: 5vw;
+    text-decoration: none;
+}
