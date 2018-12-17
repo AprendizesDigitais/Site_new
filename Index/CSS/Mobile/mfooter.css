@@ -49,6 +49,11 @@
     justify-content: space-around;
 }
 
+
+#icons a{
+    text-decoration: none;
+}
+
 #icons img{
     width: 25vw;
     height: 25vw;

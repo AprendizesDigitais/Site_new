@@ -81,7 +81,7 @@
     height: 17vw;
     max-width: 80px;
     max-height: 80px;
-    background-image: url('../../img/whatsapp.png');
-    background-size: cover;
+    background-image: url('../../img/Whatsapp.png');
+    background-size: 100%;
     background-position: center;
 }
